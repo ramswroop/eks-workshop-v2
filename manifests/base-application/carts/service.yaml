@@ -5,7 +5,7 @@ metadata:
   labels:
     app.kubernetes.io/created-by: eks-workshop
 spec:
-  type: ClusterIP
+  type: NodePort
   ports:
     - port: 80
       targetPort: http
